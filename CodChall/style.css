@@ -1,0 +1,57 @@
+body {
+  background-image: url("./img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+#container {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 5%;
+}
+#box {
+  margin: 5%;
+}
+#logo {
+  height: 100px;
+  width: 230px;
+  margin: 0 auto;
+}
+#title {
+  color: chartreuse;
+  justify-self: center;
+}
+#bar {
+  margin: 0 auto;
+  background-color: chartreuse;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
+#bar1 {
+  background-color: orange;
+  height: 20px;
+  width: 300px;
+  border-radius: 5px;
+}
+#bar2 {
+  background-color: green;
+  height: 20px;
+  width: 450px;
+  border-radius: 5px;
+}
+#bar3 {
+  background-color: red;
+  height: 20px;
+  width: 150px;
+  border-radius: 5px;
+}
